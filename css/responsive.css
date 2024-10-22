@@ -1,0 +1,210 @@
+@media (min-width:360px) and (max-width:767px) {
+   header{
+    margin-bottom: 30px;
+    padding: 1% 0%;
+}
+   .logo span{
+    font-size: 26px;
+    margin-left: 10px;
+   }
+   .nav-links ul{
+    display: none;
+   }
+   .nav-bars{
+    display: flex;
+    position: absolute;
+    right: 0;
+    align-items: center;
+    font-size: 2rem;
+    border: none;
+   }
+
+   /* profile start */
+   .profile{
+    grid-template-columns: repeat(1,1fr);
+   }
+   .profile-img{
+    transform: translateX(0px);
+}
+   .profile-img{
+    width: 100%;
+    margin-top: 50px;
+   }
+   .profile-img img{
+    width: 9rem;
+   }
+   .profile-content{
+    width: 100%;
+    float: left;
+}
+
+.profile-content .profile-heading1{
+    color: #2b2e49;
+    font-size: 16px;
+    line-height: 5px;
+}
+   
+.profile-content .profile-heading2{
+    color: tomato;
+    font-size: 15px;
+    line-height: 30px;
+}
+.profile-content p{
+    font-size: 1rem;
+}
+
+.profile-btn{
+    padding: 18px 40px;
+}
+/* profile 2 start */
+.profile-2{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+}
+.profile-img-2 img{
+    width: 27rem;
+}
+/* service start */
+.service-container{
+    display: grid;
+    padding: 5%;
+    grid-template-columns: repeat(1,100%);
+    grid-row-gap: 4rem;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+/* project start */
+.project-container{
+    margin-top: 100px;
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(1,1fr);
+    justify-items: center;
+    padding: 0 10%;
+}
+
+/* footer start */
+.footer-img{
+    background: url(/img/bg1.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+    background-size: cover;
+    border-top-right-radius: 30px;
+}
+
+.footer-icon h1{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+
+.nav-bars{
+    display: none;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 4rem;
+}
+/* header end */
+.profile{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 0% 2%;
+}
+.profile-content{
+    width: 100%;
+    float: left;
+}
+.profile-img{
+    transform: translateX(0px);
+}
+.profile-img img{
+    width: 25rem;
+}
+.profile-content .profile-heading1{
+    color: #2b2e49;
+    font-size: 25px;
+}
+.profile-content .profile-heading2{
+    font-size: 30px;
+}
+.profile-content p{
+    width: 77%;
+    font-size: 1.7rem;
+}
+/* profile 1 end */
+/* profile 2 start */
+.profile-2{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    justify-items: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+/* service start */
+.service-container{
+    display: grid;
+    padding: 5%;
+    grid-template-columns: repeat(1,1fr);
+    grid-row-gap: 4rem;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+/* service end */
+/* project start */
+.project-container{
+    margin-top: 100px;
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(1,1fr);
+    justify-items: center;
+    padding: 0 10%;
+}
+/* project section end */
+/* footer start */
+.footer-img{
+    background: url(/img/bg1.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+    background-size: cover;
+    border-top-right-radius: 30px;
+}
+
+}
+
+@media  (max-width: 1560px){
+    .profile-content .profile-heading1{
+        color: #2b2e49;
+        font-size: 30px;
+    }
+    .profile-content .profile-heading2{
+        font-size: 25px;
+    }
+    .profile-content p{
+        font-size: 15px;
+    }
+}
